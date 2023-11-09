@@ -5,6 +5,6 @@ on:
          types: [completed]
 jobs:
     echo-string:
-        runs-on: ubunto-latest
+        runs-on: ubuntu-latest
         steps:
             - run: echo "I was triggered after Repository Events"       
